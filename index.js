@@ -49,48 +49,48 @@ document.addEventListener("keydown",function(event){ //notre but est de changer 
 function playMusic(key){ //clé en paramètre
     switch(key){
         case "b":
-            var audio = new Audio("/MEME/Ora.mp3");
+            var audio = new Audio("./MEME/Ora.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "g":
-            var audio = new Audio("/MEME/Genji.mp3");
+            var audio = new Audio("./MEME/Genji.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "j":
-            var audio = new Audio("/MEME/Jet.mp3");
+            var audio = new Audio("./MEME/Jet.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "c":
-            var audio = new Audio("/MEME/Continued.mp3");
+            var audio = new Audio("./MEME/Continued.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "t":
-            var audio = new Audio("/MEME/Gta5.mp3");
+            var audio = new Audio("./MEME/Gta5.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "o":
-            var audio = new Audio("/MEME/ok.mp3");
+            var audio = new Audio("./MEME/ok.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "w":
-            var audio = new Audio("/MEME/WhyMeme.mp3");
+            var audio = new Audio("./MEME/WhyMeme.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "i":
-            var audio = new Audio("/MEME/WOW.mp3");
+            var audio = new Audio("./MEME/WOW.mp3");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         
         case "v":
-            var audio = new Audio("/MEME/Jeff.mp4");
+            var audio = new Audio("./MEME/Jeff.mp4");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "x":
-            var audio = new Audio("/MEME/WhyGay.mp4");
+            var audio = new Audio("./MEME/WhyGay.mp4");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
         case "l":
-            var audio = new Audio("/MEME/Bully.mp4");
+            var audio = new Audio("./MEME/Bully.mp4");
             audio.play();                             //objet Audio Javascript {play: function()joue moi la musique}
             break;
     
